@@ -1,0 +1,59 @@
+body{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: #919191;
+  color: #111827;
+  line-height: 1.5;
+  padding: 32px 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 100%;
+  max-width: 860px;
+}
+
+.card{
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(17,24,39,0.06);
+  padding: 10px;
+}
+
+.profile{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.avatar{
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 4px solid rgba(37,99,235,0.08);
+  flex-shrink: 0;
+}
+
+.info{
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.name{
+  font-size: 1.6rem;
+  margin-bottom: 6px;
+  color: #0f172a;
+}
+
+.nim, .study{
+  color: #6b7280;
+  margin-bottom: 6px;
+}
+
+.sub{
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+  color: #2563eb;
+}
